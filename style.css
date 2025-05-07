@@ -1,0 +1,56 @@
+.header {
+    max-width: 500px;
+    width: 100%;
+    height:80px;
+    background-color: orange;
+    position: fixed;
+    top: 0;
+    left: 8px;
+    transition: .3s;
+  }
+  
+  .header.change-color {
+    background-color: white;
+  }
+  
+  .lists{
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    height: inherit;
+    align-items: center;
+    color: white;
+    transition: .3s;
+  }
+  
+  .lists.change-color {
+    color: black;
+  }
+  
+  .list {
+   list-style: none;
+    padding-left:20px;
+    font-weight: 700;
+   
+  }
+  
+  .mv {
+  max-width: 500px;
+  width: 100%;
+  height: 500px;
+  background-color: blue;
+  }
+  
+  .section1 {
+    max-width: 500px;
+  width: 100%;
+  height: 500px;
+  background-color: orange;
+  }
+  
+  .section2 {
+    max-width: 500px;
+    width: 100%;
+    height: 2000px;
+    background-color: green;
+  }
